@@ -39,3 +39,6 @@ keepalive_timeout = 60
 
 [http.listen]
 port = 80
+
+[cache]
+proxy_pass_url = "https://bldr.habitat.sh"
